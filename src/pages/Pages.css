@@ -1,0 +1,37 @@
+.home {
+  width: 100vw;
+  height: fit-content;
+}
+
+.nfhandle {
+  width: 100vw;
+  height: calc(100vh - var(--nav__height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--nav__height);
+  padding: 50px;
+  flex-direction: column;
+}
+
+.nfhandle__number {
+  font-size: 120px;
+  color: #d76a00;
+}
+
+.nfhandle__text {
+  font-size: 80px;
+}
+
+.nfhandle__button {
+  margin-top: 50px !important;
+  font-size: 20px !important;
+  text-transform: unset !important;
+  padding: 10px 20px !important;
+}
+
+@media (max-width: 480px) {
+  .nfhandle__text {
+    font-size: 40px;
+  }
+}
